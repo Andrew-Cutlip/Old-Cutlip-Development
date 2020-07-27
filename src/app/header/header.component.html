@@ -1,0 +1,33 @@
+<mat-toolbar class='toolbar primary'>
+  <header class="header primary">
+    <h2 class="site p-dark">Cutlip Development</h2>
+    <button mat-icon-button [mat-menu-trigger-for]="menu" class="menu-button secondary">
+      <mat-icon aria-label="menu icon">menu</mat-icon>
+    </button>
+  </header>
+  <mat-menu #menu=matMenu>
+    <a routerLink="/" mat-menu-item class="p-light">Home</a>
+    <a routerLink="/about" mat-menu-item class="link-button secondary">About Me</a>
+    <a routerLink="/skills" title="What I can do for you" mat-menu-item color="secondary">Skills</a>
+    <a routerLink="/portfolio" title="See my previous work" mat-menu-item color="secondary">Portfolio</a>
+    <a routerLink="/resume" mat-menu-item color="secondary">Resume</a>
+    <a routerLink="/contact" title="Get in contact with me" mat-menu-item color="secondary">Contact Me</a>
+
+  </mat-menu>
+  <nav class="nav secondary">
+    <mat-nav-list class="nav-list">
+      <a routerLink="/" mat-list-item class="s-light">Home</a>
+
+      <mat-divider [vertical]="true"></mat-divider>
+      <a routerLink="/about" mat-list-item class="s-light">About Me</a>
+      <mat-divider [vertical]="true"></mat-divider>
+      <a routerLink="/skills" title="What I can do for you" mat-list-item class="s-light">Skills</a>
+      <mat-divider [vertical]="true"></mat-divider>
+      <a routerLink="/portfolio" title="See my previous work" mat-list-item class="s-light">Portfolio</a>
+      <mat-divider [vertical]="true"></mat-divider>
+      <a routerLink="/resume" mat-list-item class="s-light">Resume</a>
+      <mat-divider [vertical]="true"></mat-divider>
+      <a routerLink="/contact" title="Get in contact with me" mat-list-item class="s-light">Contact Me</a>
+    </mat-nav-list>
+  </nav>
+</mat-toolbar>

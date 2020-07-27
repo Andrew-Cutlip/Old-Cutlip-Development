@@ -1,0 +1,31 @@
+
+.title {
+  text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+
+  .box-item {
+    margin: 2%;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 901px) {
+
+  .main-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+
+.box-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 25%;
+}
+}

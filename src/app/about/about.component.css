@@ -1,0 +1,11 @@
+#card {
+  padding: 0px 16px;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+}
+
+.card-content {
+  text-align: left;
+  padding-left: 2%;
+}

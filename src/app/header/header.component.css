@@ -1,0 +1,61 @@
+
+.nav {
+  display: flex;
+  border: 1px solid black;
+  justify-content: end;
+}
+
+.site {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1vw;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.toolbar {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-button {
+  justify-self: flex-end;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.link-button {
+  padding: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+  .header {
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 901px) {
+  .menu-button {
+    display: none;
+  }
+}

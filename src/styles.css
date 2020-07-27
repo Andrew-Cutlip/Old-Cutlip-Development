@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  justify-content: flex-start;
+}
+
+.primary {
+  background-color: #29b6f6;
+}
+
+.p-light {
+  background-color: #73e8ff;
+}
+
+.p-dark {
+  background-color: #0086c3;
+}
+
+.secondary {
+  background-color: #00e676;
+}
+
+.s-light {
+  background-color: #66ffa6;
+}
+
+.s-dark {
+  background-color: #00b248;
+}
+
+.card {
+  padding: 0px 16px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.card-content {
+  text-align: left;
+  padding-left: 2%;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+  .card {
+    padding: 0;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 901px) {
+  .card {
+    margin: 0px 10%;
+    margin-top: 2%;
+  }
+}
