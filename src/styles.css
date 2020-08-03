@@ -33,6 +33,12 @@ body {
   background-color: #00b248;
 }
 
+.title {
+  text-align: center;
+  background-color: #0086c3;
+  margin: 2%;
+}
+
 .card {
   padding: 0px 16px;
   border: 1px solid black;
